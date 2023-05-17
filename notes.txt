@@ -3,3 +3,6 @@ comandos:
 -git status
 -git add
 -git commit
+-git fetch
+-git pull
+-git push
