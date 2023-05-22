@@ -1,8 +1,34 @@
-comandos:
+< C O M A N D O S >
+
 -git clone
+    Crea una copia local del repositorio.
+    Ej. hit clone <repo_url>
+
 -git status
+    Nos devuelve el estado actual del repositorio
+    ej. git status
+
 -git add
+    Preparar cambios (linea por liena) para ser incluidos en un commit
+    ej git add notas.txt(solo un archivo)
+    ej git add. (todos los archivos)
+
 -git commit
+    Crea un nuevo commit con los cambios que preparamos con git add
+    tiene un id de commit y un mensaje.
+    ej. git commit -m <mensaje>
+
 -git fetch
+    Trae los metadatos sobre commits, ramas, refs, etc de un repositorio remoto.
+    No descarga cambios a la rama local, solo trae metadatos
+    ej. git fetch
+
 -git pull
+    Sincroniza la rama local con lo que hay en la remota.
+    En otras palabras, descarga los commits que hay en la remota y faltan en la local
+    ej. git pull
+
 -git push
+    Sincroniza la rama remota con lo que hay en la local
+    En otras palabras, sube los commits que hay en la local y faltan en la remota
+    ej. git push
